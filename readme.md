@@ -1,2 +1,2 @@
 This is a forked repository
-This will be used for deployment aoutomation using Jenkins
+This will be used for deployment automation using Jenkins
