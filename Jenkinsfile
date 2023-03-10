@@ -28,13 +28,14 @@ pipeline {
                    curl -X GET https://api.render.com/deploy/srv-cg45ju7dvk4st71blphg?key=694nIRWHHVk
                    '''
             }
-            stage('Test') {
+        }
+        stage('Test') {
             steps {
                 bat '''
-                   npm run test
+                    npm run test
                    '''
-            }
-        }
+                }
+          }
         stage('End') {
             steps {
                 echo 'Build has run successfully'
