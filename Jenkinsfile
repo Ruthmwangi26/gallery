@@ -21,7 +21,13 @@ pipeline {
                    '''
             }
         }
-        
+         stage('Test') {
+            steps {
+                bat '''
+                    npm run test
+                   '''
+                }
+          }
         stage('Deployment') {
             steps {
                 bat '''
@@ -29,13 +35,7 @@ pipeline {
                    '''
             }
         }
-        stage('Test') {
-            steps {
-                bat '''
-                    npm run test
-                   '''
-                }
-          }
+       
         stage('End') {
             steps {
                 echo 'Build has run successfully'
