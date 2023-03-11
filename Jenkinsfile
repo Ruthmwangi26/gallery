@@ -42,6 +42,8 @@ pipeline {
             }
         }
 
+    }
+    
       post {
         success {
             emailext attachLog: true, 
@@ -72,6 +74,5 @@ pipeline {
                 to: 'rmwangi22020@gmail.com'
         }
       }  
-    }
     
 }
