@@ -6,3 +6,5 @@ Triger check
 Deploy triger check 2
 Deploy triger check 2
 Milestone3
+
+Email notification test
