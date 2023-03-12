@@ -58,7 +58,7 @@ pipeline {
         stage('Deployment') {
             steps {
                 bat '''
-                   curl -X GET https://api.render.com/deploy/srv-cg45ju7dvk4st71blphg?key=694nIRWHHVk
+                   curl -X POST https://api.render.com/deploy/srv-cg45ju7dvk4st71blphg?key=694nIRWHHVk
                    '''
             }
         }
