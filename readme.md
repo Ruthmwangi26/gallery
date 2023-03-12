@@ -3,6 +3,7 @@ DARKROOM!
 Set Up Instruction and Installation
 clone the repository https://github.com/jonnygovish/gallery
 Run through the four set MILESTONES to create a Jenkins automation pipeline with notifications.
+Slack notifications connected
 
 
 
