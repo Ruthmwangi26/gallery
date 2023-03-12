@@ -11,11 +11,7 @@ Link
 Here is the link to the website (https://milestone-2-itek.onrender.com)
 
 Technology Used
-HTML -To build the page contents.
-CSS - To style the page contents.
-jquery- To make the project interactive
-MongoDB - to store and manage data
-Node.js - JavaScript runtime environment
+HTML, CSS, NODEJS ,JQUERY 
 Licence
 Copyright (c) [2023] [Darkroom]
 
