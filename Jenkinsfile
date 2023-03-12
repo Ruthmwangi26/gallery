@@ -89,5 +89,9 @@ pipeline {
 
                 to: EMAIL_RECEPIENT
         }
+         always{
+            slackSend channel: 'ruth-ip1'
+            }   
+        
     }
 }
